@@ -8,6 +8,11 @@
 <title>我的电影</title>
 </head>
 <body>
+<a href="/webtestaa/index.jsp">回到首页</a>
+<a href="/webtestaa/GoAddFilm"><input type="button" value="添加Film" /></a>
+<a href="/webtestaa/LoginServlet">重新登陆</a>
+</br>
+</br>
  <table border="1" style="border-collapse:collapse;width:600px;">
 			<tr>
 				<td>filmid</td>
@@ -29,6 +34,7 @@
 				<td><%=film.getDescription() %></td>
 				<td><%=film.getLanguage() %></td>
 				<td><a href='/webtestaa/FilmDLM?type=del&id=<%=film.getFilm_id()%>'>删除</a></td>
+				<td><a href='/webtestaa/FilmDLM?type=update&id=<%=film.getFilm_id()%>'>编辑</a></td>
 			</tr>
 			<%
 				}

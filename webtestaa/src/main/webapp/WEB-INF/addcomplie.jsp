@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>首页</title>
+<title>Insert title here</title>
 </head>
 <body>
-<a href="/webtestaa/LoginServlet"><h1>登录</h1></a>
-<a href="/webtestaa/LoginServlet1"><h1>已登录直接访问大厅</h1></a>
+<h1>添加成功</h1>
+<a href="/webtestaa/index.jsp">回到首页</a>
+<a href="/webtestaa/LoginServlet">重新登陆</a>
+<a href="/webtestaa/FilmServlet">回到film显示界面</a>
 </body>
+</html>

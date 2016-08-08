@@ -28,6 +28,12 @@
   	<description></description>
   	<servlet-class>wu.you.gui.controller.FilmDLM</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>GoAddFilm</servlet-name>
+  	<display-name>GoAddFilm</display-name>
+  	<description></description>
+  	<servlet-class>wu.you.gui.controller.GoAddFilm</servlet-class>
+  </servlet>
   
   <servlet-mapping>
   	<servlet-name>LoginServlet</servlet-name>
@@ -44,5 +50,9 @@
   <servlet-mapping>
   	<servlet-name>FilmDLM</servlet-name>
   	<url-pattern>/FilmDLM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GoAddFilm</servlet-name>
+  	<url-pattern>/GoAddFilm</url-pattern>
   </servlet-mapping>
 </web-app>

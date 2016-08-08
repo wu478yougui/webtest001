@@ -23,6 +23,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    you are not huiyuan  fuck！！！<br>
+ <%
+    response.setHeader("refresh", "3;URL=/webtestaa/LoginServlet");//这里的3,是你要确定的时间秒URL是要跳转的地址
+%>
+<font color="red" size="5"> 您还未登录,请您先登录<br> <br>
+三秒后将跳转到登录页面 <br> <br> 如果没有跳转,请按 <a href="/webtestaa/LoginServlet">这里</a>!!!
+<br> </font>
   </body>
 </html>

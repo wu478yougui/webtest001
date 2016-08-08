@@ -11,6 +11,7 @@ public class LoginServlet extends HttpServlet {
 
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		request.getSession().invalidate();
 		request.getRequestDispatcher("/WEB-INF/NewFile.jsp").forward(request, response);
 	}
 		

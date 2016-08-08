@@ -23,7 +23,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				document.forms.loginform.username.focus();
 				return false;
 			}else{
-				return true;
+				//return true;
+				document.all.loginform.submit;
 			}
 			
 		}

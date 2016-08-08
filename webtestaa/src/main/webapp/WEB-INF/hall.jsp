@@ -24,7 +24,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     <h1>welcome</h1>
-    	<a href="/webtestaa/FilmServlet">查看Film，并对其执行相应操作</a>
+    	<a href="/webtestaa/index.jsp">回到首页</a>
+    	</br>
+    	</br>
+    	<a href="/webtestaa/FilmServlet?type">查看Film，并对其执行相应操作</a>
+    	</br>
+    	</br>
+    	<a href="/webtestaa/LoginServlet">重新登陆</a>
     	
   </body>
 </html>
