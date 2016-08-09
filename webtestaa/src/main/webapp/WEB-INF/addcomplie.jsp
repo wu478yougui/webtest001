@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>添加成功</h1>
-<a href="/webtestaa/index.jsp">回到首页</a>
+<a href="/webtestaa/index.jsp">回到首页</a> 
 <a href="/webtestaa/LoginServlet">重新登陆</a>
 <a href="/webtestaa/FilmServlet">回到film显示界面</a>
 </body>
